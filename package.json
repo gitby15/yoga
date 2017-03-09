@@ -1,0 +1,24 @@
+{
+  "name": "yoga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitby15/yoga.git"
+  },
+  "author": "Tim Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitby15/yoga/issues"
+  },
+  "homepage": "https://github.com/gitby15/yoga#readme",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "transfer-webpack-plugin": "^0.1.4",
+    "webpack": "^2.2.1"
+  }
+}
