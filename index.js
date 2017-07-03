@@ -32,7 +32,20 @@
 //
 // window.b = waitforElement;
 
-var script = document.createElement('script');
-script.src = '//cdn.bootcss.com/jquery/3.1.1/jquery.min.js';
-document.body.appendChild(script);
-console.log('jquery has insert');
+// var script = document.createElement('script');
+// script.src = '//cdn.bootcss.com/jquery/3.1.1/jquery.min.js';
+// document.body.appendChild(script);
+// console.log('jquery has insert');
+
+
+
+
+const Koa = require('koa');
+const app = new Koa();
+
+app.use(ctx => {
+  ctx.body = 'Hello World';
+});
+
+app.listen(3000);
+
